@@ -10,6 +10,35 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.plants {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 52px;
+  margin: 0 52px;
+}
+
+
+ /* post solving - i could use just one class instead of separate ones */
+.barberry,
+.chili,
+.pepper,
+.saffron {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
