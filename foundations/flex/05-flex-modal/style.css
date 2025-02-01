@@ -20,8 +20,15 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 15px;
+  gap: 15px;
 }
-
+.container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -35,19 +42,45 @@ body {
   justify-content: center;
 }
 
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  font-size: 22px;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 16px;
   height: 24px;
   width: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-4 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
 }
 
 button {
